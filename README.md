@@ -3,4 +3,7 @@ Pequeño Script para que al pulsar un botón seamos capaces de apagar la Raspber
 
 Para empezar debemos comprobar que tengamos el módulo GPIO ello ejecutaremos el siguiente Comando en la Shell:
 
+1-- sudo apt-get install python-pip
+
+
 sudo apt-get install python-rpi.gpio
