@@ -24,9 +24,17 @@ Para ejecutar el script
 
 -- sudo python  shutdown.py
 
-y listo!!! Para apagar la Raspberry simplemente tendremos que presionar brevemente el pulsador
------------------------------------------------------------------
-Ahora configuraremos el script para que se ejcute cada vez que se inicie la Raspberry.
+Y listo!!! Para apagar la Raspberry simplemente tendremos que presionar brevemente el pulsador
+
+Configuración del script para que se ejcute cada vez que se inicie la Raspberry.
+--------------------------------------------------------------------------------
+--sudo crontab -e
+
+Introducimos la siguiente linea al final del crontab:
+
+--@reboot sudo python /home/pi/"path_del_archivo"/shutdown.py
+
+Listo!!!
 
 
 
