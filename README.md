@@ -1,5 +1,5 @@
 # Apagado-Encendido_Raspberry_KODI
-Pequeño Script para que al pulsar un botón seamos capaces de apagar la Raspberry de manera segura.
+Pequeño Script para que al pulsar un botón seamos capaces de apagar la Raspberry de manera segura y con el mismo se encienda.
 
 Primero deberemos de instalar todos los paquetes necesarios de python y los módulos que no vienen preinstalados con Kodi.
 
