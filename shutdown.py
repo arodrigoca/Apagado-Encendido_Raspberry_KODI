@@ -1,5 +1,5 @@
 import sys
-sys.path.append('/storage/.kodi/addons/python.RPi.GPIO/lib')
+sys.path.append('/scripts/.kodi/addons/python.RPi.GPIO/lib')
 import RPi.GPIO as GPIO
 import time
 import os
